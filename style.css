@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+h1{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    
+}
+img{
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #fff;
+    
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 40px;
+}
+.homeworks,
+.classworks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    h2{
+        color: #fff;
+        text-decoration: underline;
+    }
+
+}
+
+a{
+    color: crimson;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: .3s;
+}
+a:hovre{
+    transform: rotate(180deg);
+}
